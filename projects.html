@@ -12,10 +12,13 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Shu-Wei Liu</title>
+  <title>Eric Liu</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/Block-I-white-orange-backgorund.png">
 
   <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -35,7 +38,8 @@
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="s-1"> </span>
             <span class="s-2"> </span>
             <span class="s-3"> </span>
@@ -63,127 +67,147 @@
   </div>
 
 
-<!-- project section -->
-<section class="service_section layout_padding">
-  <div class="container">
-    <div class="heading_container">
-      <h2>
-        My Projects
-      </h2>
-    </div>
+  <!-- project section -->
+  <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          My Projects
+        </h2>
+      </div>
 
-    <div class="service_container">
-      <div class="box">
-        <div class="img-box">
-          <img src="images/risc-v.jpg" class="img1" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); margin-top: 55px;">
+      <div class="service_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/risc-v.jpg" class="img1" alt=""
+              style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); margin-top: 55px;">
+          </div>
+          <div class="detail-box">
+            <h5>
+              <br>
+              <br>
+              <a>RISC-V Pipeline Processor</a>
+            </h5>
+            <h6>
+              <em>SystemVerilog, RISC-V, VCS, RTL design/verification</em>
+            </h6>
+            <p>
+              Designed and implemented a 5-stage RISC-V RV32I pipeline processor in SystemVerilog, optimizing
+              performance with forwarding, backpressure-based stall, and global stall models to resolve hazards.
+              Achieved 500 MHz clock frequency and 13,226 μm² chip area. Verified functionality using VCS.
+            </p>
+          </div>
         </div>
-        <div class="detail-box">
-          <h5>
-            <br>
-            <br>
-            <a>RISC-V Pipeline Processor</a>
-          </h5>
-          <h6>
-            <em>SystemVerilog, RISC-V, VCS, RTL design/verification</em>
-          </h6>
-          <p>
-            Designed and implemented a 5-stage RISC-V RV32I pipeline processor in SystemVerilog, optimizing performance with forwarding, backpressure-based stall, and global stall models to resolve hazards. Achieved 500 MHz clock frequency and 13,226 μm² chip area. Verified functionality using VCS.
-          </p>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/image_comparator_pic.png" class="img1" alt=""
+              style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); margin-top: 55px;">
+          </div>
+          <div class="detail-box">
+            <h5>
+              <br>
+              <br>
+              <br>
+              <a href="https://drive.google.com/file/d/1mKYOnJJaLpGbXf-4XX1Pm6s1B4BPtRAl/view?usp=sharing">Image
+                Comparator Circuit</a>
+            </h5>
+            <h6>
+              <em>Virtuoso, HSPICE</em>
+            </h6>
+            <p>
+              Designed a 4-bit comparator with reliable operation across all corners, achieving 1.82 GHz performance.
+              Led a four-person team through the full design process in Virtuoso, optimizing transistor sizing and
+              layout to achieve a compact 58.52 × 46.01 μm² area.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/IMG_3622.JPG" class="img1" alt=""
+              style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); margin-top: 40px;">
+          </div>
+          <div class="detail-box">
+            <h5>
+              <br>
+              <br>
+              <a href="https://github.com/liushuwei0/AutoGem">Autonomous Driving Software for GEM Electric Vehicle</a>
+            </h5>
+            <h6>
+              <em>ROS, RVis, Python, Ubuntu, Computer Vision</em>
+            </h6>
+            <p>
+              Developed an autonomous driving system with lane detection using front camera signals and control
+              integration. Implemented Gradient Filter, Color Filter, and YOLOv2 for lane detection, Pure Pursuit for
+              steering, and PID for acceleration, enabling navigation through stop signs, pedestrians, and roadwork.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/FPGA_pic.jpg" class="img1" alt=""
+              style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); margin-top: 40px;">
+          </div>
+          <div class="detail-box">
+            <h5>
+              <br>
+              <br>
+              <a href="https://drive.google.com/file/d/1ft2Syhqks_Tu4CwMwLVn8hCNEjpsCTdR/view?usp=sharing">Snake Game on
+                FPGA Board</a>
+            </h5>
+            <h6>
+              <em>Verilog, FPGA</em>
+            </h6>
+            <p>
+              Designed and implemented a Snake game in Verilog, featuring VGA display, keyboard controls, and real-time
+              scoring. Integrated stereo background music and deployed the game on an FPGA board.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/ROM_pic.png" class="img1" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);">
+          </div>
+          <div class="detail-box">
+            <h5>
+              <br>
+              <a href="https://drive.google.com/file/d/1pzYzs90ZvIQhLmmjbT0EXKtv6i7xcPw9/view?usp=sharing">ROM
+                Peripheral Circuit</a>
+            </h5>
+            <h6>
+              <em>HSPICE, Composer, Laker</em>
+            </h6>
+            <p>
+              Developed a 10-bit addressable ROM circuit for accurate data retrieval based on input addresses. Optimized
+              transistor sizing and layout design for functionality across all corners, achieving a nearly rectangular
+              96.3 × 238.3 μm² layout.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/tsmc.png" class="img1" alt=""
+              style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); margin-top: 85px;">
+          </div>
+          <div class="detail-box">
+            <h5>
+              <br>
+              <br>
+              <br>
+              <br>
+              <a href="https://drive.google.com/file/d/1bZfHb48IMlF_tCMXN2aG4UzJxlq3rSUp/view?usp=sharing">Multi-Bit
+                Storage Using HfZrOx Ferroelectric Films</a>
+            </h5>
+            <p>
+              Investigated HfZrOx films for multi-bit storage, optimizing the capacitor manufacturing process by
+              switching from PMA to PDA, achieving 10⁸ cycle reliability. Leveraged ferroelectric properties to create 8
+              distinct states, enabling 3-bit storage. Awarded the 1H Research Assistant Scholarship by TSMC in 2022.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="box">
-        <div class="img-box">
-          <img src="images/image_comparator_pic.png" class="img1" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); margin-top: 55px;">
-        </div>
-        <div class="detail-box">
-          <h5>
-            <br>
-            <br>
-            <br>
-            <a href="https://drive.google.com/file/d/1mKYOnJJaLpGbXf-4XX1Pm6s1B4BPtRAl/view?usp=sharing">Image Comparator Circuit</a>
-          </h5>
-          <h6>
-            <em>Virtuoso, HSPICE</em>
-          </h6>
-          <p>
-            Designed a 4-bit comparator with reliable operation across all corners, achieving 1.82 GHz performance. Led a four-person team through the full design process in Virtuoso, optimizing transistor sizing and layout to achieve a compact 58.52 × 46.01 μm² area.
-          </p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="img-box">
-          <img src="images/IMG_3622.JPG" class="img1" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); margin-top: 40px;">
-        </div>
-        <div class="detail-box">
-          <h5>
-            <br>
-            <br>
-            <a href="https://github.com/liushuwei0/AutoGem">Autonomous Driving Software for GEM Electric Vehicle</a>
-          </h5>
-          <h6>
-            <em>ROS, RVis, Python, Ubuntu, Computer Vision</em>
-          </h6>
-          <p>
-            Developed an autonomous driving system with lane detection using front camera signals and control integration. Implemented Gradient Filter, Color Filter, and YOLOv2 for lane detection, Pure Pursuit for steering, and PID for acceleration, enabling navigation through stop signs, pedestrians, and roadwork.
-          </p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="img-box">
-          <img src="images/FPGA_pic.jpg" class="img1" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); margin-top: 40px;">
-        </div>
-        <div class="detail-box">
-          <h5>
-            <br>
-            <br>
-            <a href="https://drive.google.com/file/d/1ft2Syhqks_Tu4CwMwLVn8hCNEjpsCTdR/view?usp=sharing">Snake Game on FPGA Board</a>
-          </h5>
-          <h6>
-            <em>Verilog, FPGA</em>
-          </h6>
-          <p>
-            Designed and implemented a Snake game in Verilog, featuring VGA display, keyboard controls, and real-time scoring. Integrated stereo background music and deployed the game on an FPGA board.
-          </p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="img-box">
-          <img src="images/ROM_pic.png" class="img1" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);">
-        </div>
-        <div class="detail-box">
-          <h5>
-            <br>
-            <a href="https://drive.google.com/file/d/1pzYzs90ZvIQhLmmjbT0EXKtv6i7xcPw9/view?usp=sharing">ROM Peripheral Circuit</a>
-          </h5>
-          <h6>
-            <em>HSPICE, Composer, Laker</em>
-          </h6>
-          <p>
-            Developed a 10-bit addressable ROM circuit for accurate data retrieval based on input addresses. Optimized transistor sizing and layout design for functionality across all corners, achieving a nearly rectangular 96.3 × 238.3 μm² layout.
-          </p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="img-box">
-          <img src="images/tsmc.png" class="img1" alt="" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); margin-top: 85px;">
-        </div>
-        <div class="detail-box">
-          <h5>
-            <br>
-            <br>
-            <br>
-            <br>
-            <a href="https://drive.google.com/file/d/1bZfHb48IMlF_tCMXN2aG4UzJxlq3rSUp/view?usp=sharing">Multi-Bit Storage Using HfZrOx Ferroelectric Films</a>
-          </h5>
-          <p>
-            Investigated HfZrOx films for multi-bit storage, optimizing the capacitor manufacturing process by switching from PMA to PDA, achieving 10⁸ cycle reliability. Leveraged ferroelectric properties to create 8 distinct states, enabling 3-bit storage. Awarded the 1H Research Assistant Scholarship by TSMC in 2022.
-          </p>
-        </div>
-      </div>    
     </div>
-  </div>
-</section>
-<!-- end project section -->
+  </section>
+  <!-- end project section -->
 
 
 
@@ -229,7 +253,7 @@
       <div class="row">
         <div class="col-lg-7 col-md-9 mx-auto">
           <p>
-            &copy; 2025 All Rights Reserved By Shu-Wei Liu
+            &copy; 2025 All Rights Reserved By Eric Liu
           </p>
         </div>
       </div>
