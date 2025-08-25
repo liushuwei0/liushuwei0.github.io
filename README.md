@@ -1,2 +1,2 @@
-# Shu-Wei Liu Personal Website
+# Eric Liu Personal Website
 Please view this link: https://liushuwei0.github.io/
